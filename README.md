@@ -13,3 +13,19 @@ Build a middleware using [echo framework](https://echo.labstack.com/)
 - Made a custom server example for app, that you can see in `cmd/customapp/`.
 - Used a DI approach for low code coherence 
 - Added graceful shutdown to both servers
+
+## How to run
+```
+git clone https://github.com/POMBNK/umbrellaServer
+cd umbrellaServer
+```
+
+To run echo version:
+```
+ go run cmd/myapp/main.go
+```
+
+To run app with custom http server:
+```
+go run cmd/customapp/main.go
+```
